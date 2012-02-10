@@ -1,0 +1,52 @@
+﻿body
+{
+    background-color:#453D5B;
+}
+
+.command_line
+{
+    outline:none;
+    border:0;
+    width:500px;
+
+}
+
+input, p, .input, .old_input, .command_line
+{
+    font-family:Courier New;
+    font-size:medium;
+    color:white;
+    background-color:#453D5B;
+    font-weight:bold;
+}
+		
+.map
+{ 
+	height:400px; 
+	width:575px;
+}
+        
+ol, li
+{
+    padding-left:5px; 
+    padding-right:5px;
+}
+
+
+#container 
+{
+    float:left;
+}
+
+#draggable 
+{
+    height:500;
+    width:500;
+    padding: 0.5em; 
+    border:1px solid black;
+    float: right; 
+    right: 10px; 
+    top:0px;
+    color:White;
+    position:fixed;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Web Console</title>
+    <link href="css/console.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="javascript/jquery-1.5.2.js"></script>
+    <script type="text/javascript" src="javascript/jQueryPrint.js"></script>
+    <script type="text/javascript" src="javascript/console.js"></script>
+    <script type="text/javascript" src="javascript/lispInterpreter.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/jquery-ui.min.js"></script>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript">
+
+        $(function () {
+            $("#draggable").draggable();
+        });
+    
+    </script>
+</head>
+<body>
+    <div id="container">
+        <div class="prompt" style="float: left; width: 700px;">
+            <p style="margin-top: 0px;">
+                Welcome to the Console V1.0
+                <br />
+                Developed by Robert O'Neill
+                <br />
+                Type 'help' to get a list of commands.
+            </p>
+            <span class="input">bob@console:~$
+                <input class="command_line" /></span>
+        </div>
+    </div>
+    <div id="draggable" class="ui-widget-content">
+    </div>
+</body>
+</html>
