@@ -45,11 +45,7 @@ will print an error.
 
 
 <p>
-<strong>**Note that there are a few bugs in the evaluator. For some long
-expressions with many many trailing parentheses at the end, the program
-will produce an error even when given valuid input. I wrote the evaluator
-as a vehicle to get better acquainted with javascript. I am not going to waste
-my time tracking down somewhat obscure bugs. Most calculations run perfectly, however. </strong>
+<strong>**Note that there are a few bugs in the evaluator. </strong>
 </p>
 
 ###The Filesystem Browser
@@ -76,6 +72,7 @@ To display a google map in the console, type the command <strong>map</strong> fo
 Following typical google maps conventions, the address can be as simple as <strong>bos</strong> for Boston or
 <strong>ny</strong> for New York and can also be as complex as a full street address. Google's address lookup service
 also accounts for mispellings such as <strong>bostn</strong> for Boston.
+</p>
 
 ###Print Tool
 
